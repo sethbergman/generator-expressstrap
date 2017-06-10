@@ -1,4 +1,6 @@
 # generator-expressstrap [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/sethbergman/generator-expressstrap.svg)](https://greenkeeper.io/)
 > An Express, Bootstrap Yeoman Generator. Choose from 6 Bootstrap Templates. Includes HTML5 Boilerplate, Handlebars Templating/View Engine and Mongoose (MongoDB) on the Back-end.
 
 ## Installation
