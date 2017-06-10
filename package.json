@@ -1,18 +1,14 @@
 {
-	"name": "generator-expressstrap",
-	"version": "0.0.0",
-	"description": "An Express, Bootstrap Yeoman Generator. Choose from 6 Bootstrap Templates. Includes HTML5 Boilerplate, Handlebars Templating/View Engine and Mongoose (MongoDB) on the Back-end.",
-	"homepage": "https://github.com/sethbergman/expressstrap",
-	"author": {
-		"name": "Seth Bergman",
-		"email": "hello@sethbergman.com",
-		"url": "http://sethbergman.com"
-	},
-	"files": [
+  "name": "generator-expressstrap",
+  "version": "0.0.1",
+  "description": "An Express, Bootstrap Yeoman Generator. Choose from 6 Bootstrap Templates. Includes HTML5 Boilerplate, Handlebars Templating/View Engine and Mongoose (MongoDB) on the Back-end.",
+  "homepage": "https://github.com/sethbergman/expressstrap",
+  "author": "Seth Bergman <hello@sethbergman.com> (http://sethbergman.com)",
+  "files": [
     "generators"
   ],
-	"main": "generators/app/index.js",
-	"keywords": [
+  "main": "generators/app/index.js",
+  "keywords": [
     "express",
     "bootstrap",
     "mongodb",
@@ -23,36 +19,45 @@
     "generator",
     "yeoman-generator"
   ],
-	"dependencies": {
-		"yeoman-generator": "^0.23.0",
-		"chalk": "^1.0.0",
-		"yosay": "^1.0.0"
-	},
-	"devDependencies": {
-		"yeoman-test": "^1.0.0",
-		"yeoman-assert": "^2.0.0",
-		"eslint": "^3.1.1",
-		"eslint-config-xo-space": "^0.15.0",
-		"gulp": "^3.9.0",
-		"gulp-eslint": "^3.0.1",
-		"gulp-exclude-gitignore": "^1.0.0",
-		"gulp-line-ending-corrector": "^1.0.1",
-		"gulp-istanbul": "^1.0.0",
-		"gulp-mocha": "^3.0.1",
-		"gulp-plumber": "^1.0.0",
-		"gulp-nsp": "^2.1.0",
-		"gulp-coveralls": "^0.1.0"
-	},
-	"eslintConfig": {
-		"extends": "xo-space",
-		"env": {
-			"mocha": true
-		}
-	},
-	"repository": "https://github.com/sethbergman/expressstrap.git",
-	"scripts": {
-		"prepublish": "gulp prepublish",
-		"test": "gulp"
-	},
-	"license": "MIT"
+  "dependencies": {
+    "yeoman-generator": "^0.23.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.0"
+  },
+  "devDependencies": {
+    "yeoman-test": "^1.0.0",
+    "yeoman-assert": "^2.0.0",
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethbergman/expressstrap.git"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sethbergman/expressstrap/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
 }
